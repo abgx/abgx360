@@ -1,11 +1,13 @@
-abgx360 requires libcurl (http://curl.haxx.se/download.html) and zlib (http://www.zlib.net/)
+# Requirements
+- libcurl (http://curl.haxx.se/download.html)
+- zlib (http://www.zlib.net/)
 
-To install them on systems with apt-get:
-sudo apt-get install libcurl4-openssl-dev zlib1g-dev
-
-To compile and install abgx360:
+# Build
+```
+./autogen.sh
 ./configure
 make
-sudo make install
+```
 
+# Usage
 Type abgx360 with no arguments for usage or use the GUI (installed separately) to launch it
