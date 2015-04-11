@@ -3,7 +3,7 @@
 
 AC_PREREQ(2.60)
 AC_INIT([abgx360], [1.0.6])
-AM_INIT_AUTOMAKE([-Wall -Werror foreign])
+AM_INIT_AUTOMAKE([-Wall foreign])
 AC_CONFIG_SRCDIR([src/abgx360.c])
 AC_CONFIG_HEADER([config.h])
 
