@@ -1,3 +1,5 @@
+Upstream: http://abgx360.xecuter.com/
+
 # Requirements
 - libcurl (http://curl.haxx.se/download.html)
 - zlib (http://www.zlib.net/)
